@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+}
+#bg{
+    border: 1px solid black;
+    height: 99.5vh;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/21/07/16/learning-3245793_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#innerbg{
+    border: 1px slid black;
+    background-color: rgb(128, 128, 128,0.5);
+    backdrop-filter: blur(2px);
+    width: 600px;
+    min-height: 420px;
+    border-radius: 20px;
+    position: relative;
+    top: 135px;
+    left: 380px;
+    box-shadow: 0px 0px 8px 12px  grey;
+    text-align: center;
+}
+
+#sname{
+    margin-left: 33px;
+}
+#email{
+    margin-left: 29px;
+    margin-top: 10px;
+}
+#npwd{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#cpwd{
+    margin-top: 10px;
+}
+#field1{
+    position: absolute;
+    top: 85px;
+    left: 345px;
+    color: red;
+    display: none;
+}
+#field2{
+    position: absolute;
+    top: 138px;
+    left: 340px;
+    color: red;
+    display: none;
+}
+#para{
+    padding: 25px;
+}
+.la{
+    font-size: 18px;
+    font-weight: bold;
+}
+.inpt{
+    padding: 3px;
+}
+#img{
+   
+   background-color:none;
+    margin-left: -30px;
+    position: relative;
+    width: 23px;
+    height: 22px;
+    top: 7px;
+    left:2px;
+    border: none;
+}
+#p{
+    position: relative;
+    top: 5px;
+    left: 25px;
+    display: none;
+
+}
+
+#btt1{
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+   
+}
+#foot{
+    padding-top: 15px;
+    margin-left: 20px;
+}
+#link{
+    color: darkred;
+    text-decoration: none;
+}
